@@ -5,22 +5,15 @@ def prime?(n)
     return false
   end
 
-  #i = 2
-  #while i < n do
-    #if n%i === 0
-      #return false
-    #end
-    #i += 1
-  #end
-
-  for i in 2..n do
+  i = 2
+  while i < n do
     if n%i === 0
       return false
-    else
-      return true
     end
+    i += 1
   end
 
-  #return true
+
+  return true
 
 end

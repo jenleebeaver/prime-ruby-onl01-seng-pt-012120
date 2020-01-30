@@ -22,5 +22,3 @@ def prime?(n)
   return true
 
 end
-
-

@@ -13,7 +13,6 @@ def prime?(n)
     i += 1
   end
 
-
   return true
 
 end

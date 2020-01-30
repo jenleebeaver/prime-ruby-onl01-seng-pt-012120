@@ -13,9 +13,11 @@ def prime?(n)
     #i += 1
   #end
 
-  for i in 1..n do
+  for i in 2..n do
     if n%i === 0
       return false
+    else
+      true
     end
   end
 
